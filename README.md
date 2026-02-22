@@ -1,28 +1,57 @@
-# Hidden Markov Model using Baum-Welch Algorithm
+# Hidden Markov Model (HMM) using Baum-Welch Algorithm
 
-  Name: Gopika MS  
-  University Registration Number:TCR24CS030  
+**Name:**Gopika M S  
+**University Registration number:**TCR24CS030  
+**Programming Language:** Python  
 
-## Description
+---
 
-This project implements a Hidden Markov Model (HMM) using the Baum-Welch algorithm.
+## 📌 Project Overview
 
-It includes:
-- Forward and Backward algorithms
-- Parameter re-estimation (initial probabilities, transition matrix, emission matrix)
-- Visual output with heatmaps for the Transition (A) and Emission (B) matrices
-- Log-likelihood convergence graph showing training progress
+This project implements a **Hidden Markov Model (HMM)** using the **Baum-Welch Algorithm**, which is an Expectation-Maximization (EM) technique used to train the parameters of an HMM.
 
-## How to Run
+The implementation initializes transition, emission, and initial state probabilities and iteratively updates them using the Baum-Welch training procedure based on a given observation sequence.
 
-1. Install the required dependencies:
+The convergence of the model training is visualized using a log-likelihood graph.
 
-```bash
+---
 
+## 🧠 Concepts Implemented
+
+- Hidden Markov Model (HMM)
+- Forward Algorithm
+- Backward Algorithm
+- Baum-Welch Algorithm
+- Expectation-Maximization (EM)
+- Transition Probability Matrix
+- Emission Probability Matrix
+- Initial State Probability
+- Log-Likelihood Convergence
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- NumPy
+- Matplotlib
+- Streamlit
+
+---
+
+
+
+## ⚙️ Requirements
+
+Python 3.x
+
+Install dependencies using:
 pip install -r requirements.txt
+---
 
-2.Run the Streamlit app:
+## ▶️ How to Run the Project
 
-</> Bash
-
+Run the visualization app using:
 streamlit run app.py
+
+
