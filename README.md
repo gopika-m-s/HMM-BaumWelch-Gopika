@@ -18,4 +18,11 @@ It includes:
 1. Install the required dependencies:
 
 ```bash
+
 pip install -r requirements.txt
+
+2.Run the Streamlit app:
+
+</> Bash
+
+streamlit run app.py
