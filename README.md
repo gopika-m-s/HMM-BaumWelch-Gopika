@@ -1,7 +1,7 @@
 # Hidden Markov Model (HMM) using Baum-Welch Algorithm
 
 Name:Gopika M S  
-University Registration number:TCR24CS030  
+University Reg.no:TCR24CS030  
 Programming Language: Python  
 
 ---
@@ -53,6 +53,7 @@ pip install -r requirements.txt
 
 Run the visualization app using:
 streamlit run app.py
+
 
 
 
